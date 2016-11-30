@@ -1,0 +1,277 @@
+
+#fix-size{
+   width:1280px;
+   /*position:absolute;*/
+   position: fixed;
+   top:0px;
+   margin-left: -40px;
+
+/*   left:25%;*/
+   /*top:10%;*/
+   /*right: 10%*/
+  
+}
+
+
+
+#thumbnails{
+    margin-top:50px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+.thumbnail {
+    margin:0px 10px 0px 10px;
+    max-width:100px;
+    max-height:100px;
+}
+
+.thumbnail img{
+    max-width:100%;
+    height:auto;
+}
+
+#admin_wrapper{
+    display:none;
+}
+
+#title_wrapper{
+    display:flex;
+    justify-content:space-between;
+    margin: 50px 0px 20px 0px;
+}
+
+.delete_button{
+    background-image: url('../media/garbage47.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-weight:bold;
+    font-size: 36px;
+}
+
+#delete_image_button{
+    width:36px;
+    height: 36px;
+    background-size: 36px 36px;
+}
+
+#editor_wrapper{
+    display:flex;
+    justify-content:flex-start;
+    margin: 20px 0px 20px 0px;
+}
+
+#editor_label{
+    font-size: 24px;
+    margin-right:20px;
+}
+
+.img_box{
+    display:flex;
+    align-items:center;
+    max-height: 600px;
+    max-width: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.img_box img{
+    max-height: 600px;
+    max-width: 800px;
+}
+
+canvas{
+    background-size: 800px 600px;
+}
+
+
+#source:before {
+    content: "@ ";
+}
+
+#source {
+    text-align:right;
+    font-style: italic;
+    margin-top:5px;
+}
+
+#nav_overlay{
+    position:absolute;
+    height: 600px;
+    width: 800px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.nav_button{
+    width:50px;
+    height: 100%;
+    background-image: url('../media/right-arrow26.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nav_left{
+    float:left;
+    transform: scaleX(-1);
+}
+
+#nav_right{
+    float:right;
+}
+
+.show_button{
+    visibility: hidden;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.help-inline{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h3{
+    font-weight:lighter;
+    font-size:20px;
+    text-decoration: underline;
+}
+
+#comments{
+    margin: 20px 50px 0px 50px;
+}
+
+.comment{
+    margin-top:20px;
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.comment_username{
+    font-weight:bold;
+}
+
+.comment_date{
+    text-align:left;
+    margin-left:5px;
+}
+
+.comment_date::before{
+     content: "| ";
+}
+
+.comment .delete_button{
+    margin-left:auto;
+    width:20px;
+    height: 20px;
+    background-size: 20px 20px;
+}
+
+.comment_content{
+    flex-basis:100%;
+    margin-top:5px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align:center;
+}
+
+/* ********
+On/Off FlipSwitch from: https://proto.io/freebies/onoff/
+******** */
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+#erase{
+    border-radius: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width:70px;
+    height:50px;
+}
+#purple{
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:white;
+    background-color: purple;
+}
+#yellow{
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    background-color: yellow;
+}
+#green{
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:black;
+    background-color: green;
+}
+#black{
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:white;
+    background-color: black;
+}

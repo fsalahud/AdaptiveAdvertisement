@@ -1,0 +1,691 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('captiveportal-AvenirLTStd-Book.otf'); 
+  src: 
+    local('Avenir'),
+    url('captiveportal-AvenirLTStd-Book.otf') 
+    format('opentype');
+}
+
+body {
+  /*background: #56042c !important;*/
+  font-family: "Avenir" !important;
+  color: #56042c !important;
+ 
+}
+
+#connection{
+  display:none;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  padding: 30px 40px; 
+  width: 200px;
+}
+
+
+
+.far-bg-img_form {
+    position: relative;
+    width: 101%;
+}
+
+.far-bg-img_form img {
+    position: absolute;
+    left: 0;
+    top: -20;
+    width: 100%;
+    min-height: 1024px;
+    }
+
+
+
+.far-bg-img {
+    position: relative;
+    width: 101%;
+}
+
+.far-bg-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 1024px;
+    }
+
+.navigation{
+  font-size: 60px;
+  font-family: "Avenir" !important;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #1077c3;
+  height: auto;
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.navigation_form{
+  font-size: 60px;
+  font-family: "Avenir" !important;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #1077c3;
+/*  height: auto;*/
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+hr{
+  border-top: 1px solid black !important;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.far.radio{
+  vertical-align: baseline;
+  padding-left: 0px;
+  margin-left: 70%;
+
+}
+
+input[type="radio"] + label {
+    border: 2px solid #56042c;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+#far-op{
+  position: absolute;
+  margin: -6px;
+  min-width: 200px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+input[type="radio"]:checked + label {
+    background: #56042c;
+}
+
+.far.col-sm-6{
+ width: 50%; 
+ margin-left: 25%;
+}
+
+.wrapper {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
+#age{
+  margin-bottom: 20px !important;
+}
+
+.form-signin-heading{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: "Avenir" !important;
+  padding-bottom: 2%;
+}
+
+.category{
+  float: left;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.far.col-sm-12{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+.form-signin {
+  width: 90%;
+  padding: 30px 65px 35px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  /*box-shadow:1px 2px 0px #BDBDBD;*/}
+
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 20px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  max-width: 130px;
+  font-size: 16px;
+  height: auto;
+  color: #56042c;
+  padding: 10px;
+  padding-left: 20px;
+  margin-left: 70%;
+  margin-top: 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+
+.btn-info{
+    border-color: #56042c !important;
+}
+
+.btn{
+  color: white;
+  background: #56042c !important;
+  font-size: 16px !important;
+  }
+
+/*.finbtn{
+    color: white;
+  background: #56042c !important;
+  font-size: 16px !important;
+  border-color: #56042c !important;
+}*/
+
+
+/*.far.btn{
+    background: transparent !important;
+    border: 3px solid white !important;
+    color: white !important;
+    font-size: 18px !important;
+    margin-top: 25px;
+    padding-top: 15px !important;
+    border-radius: 0px !important;
+}
+
+
+.far.btn:hover{
+  color: red !important;
+  background: white !important;
+}*/
+
+img#logo {
+    height: 130px;
+    width: auto;
+    z-index: 22222;
+    margin-right: 1%;
+}
+img#logo_fin {
+    height: 130px;
+    width: auto;
+    z-index: 22222;
+    margin-right: 1%;
+}
+
+#title{
+  margin-right: 8%;
+}
+
+#div1{
+  display: none;
+}
+
+h2.farj-heading{
+  text-align: center;
+}
+
+.farj-heading{
+  font-size: 30px;
+
+}
+/*
+.farj.btn{
+    background: transparent !important;
+    border: 3px solid #56042c !important;
+    color: #56042c !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-left: 146px !important;
+    margin-top: 25px;
+    padding-top: 15px !important;
+    border-radius: 3px !important;
+}
+*/
+/*.farj.btn:hover{
+  color: white !important;
+  background: rgba(86,4,44,0.8)!important;
+}*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 369px){
+
+.navigation{
+    padding-left: 6% !important;
+    width: 101%;  
+}
+  .wrapper {
+    padding-left: 6% !important;
+  }
+
+  body{
+  overflow: scroll;
+}
+
+h2.success.form-signin-heading {
+  font-size: 25px !important;
+  color: #FFFFFF !important;
+  background-color: #007F00;
+  opacity: 0.8;
+  padding: 30px 40px; 
+  width: 300px;
+
+}
+
+.err.success.form-signin-heading {
+  font-size: 30px;
+}
+
+/*.farj.btn{
+  margin-left: 15% !important;
+  padding: 8px 18px !important;
+}*/
+
+.farj-heading{
+  font-size: 20px;
+  text-align: center;
+}
+span#subhead {
+    font-size: 23px!important;
+    color: #FFFFFF !important;
+}
+span#subhead {
+    font-size: 23px!important;
+    color: #FFFFFF !important;
+     font-weight: bold !important;
+}
+
+#logo{
+    padding-left: 10px !important; 
+  }
+
+img#logo{
+  max-width: 80px;
+  height: auto;
+}  
+
+#logo_fin{
+    padding-left: 10px !important; 
+  }
+
+img#logo_fin{
+  max-width: 50px;
+  height: auto;
+}  
+
+  body{
+  overflow: scroll;
+}
+
+.err.success.form-signin-heading {
+  font-size: 30px;
+}
+
+.navigation_form{
+  width: 305px;
+}
+
+.far-bg-img_form img{
+    width: 305px;
+     min-height: 830px;
+     z-index: -1;  
+}
+
+p#title_form{
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.wrapper{
+  width: 110% !important;
+}
+
+.form-signin-heading{
+  width: 270px;
+  margin-left: -10px;
+}
+
+#connectbtn{
+  margin-left: 38px !important;
+}
+
+.category{
+  padding-bottom: 10px;
+}
+/*
+.fin.btn{
+
+    background: transparent !important;
+    border: 3px solid #56042c !important;
+    color: #56042c !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-left: 0px !important;
+    margin-top: 25px;
+    padding-top: 15px !important;
+    border-radius: 3px !important;
+}
+
+.fin.btn:hover{
+  color: white !important;
+  background: rgba(86,4,44,0.8)!important;
+}*/
+
+#connection{
+  display:none;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  padding: 30px 40px; 
+  width: 170px !important;
+}
+
+.succ.far-bg-img img{
+  width: 340px!important;
+}
+
+}
+
+@media only screen and (min-width: 370px) and (max-width: 375px){
+  .far-bg-img {
+    width: 105% !important;
+}
+
+
+.navigation{
+    padding-left: 6% !important;
+    width: 101%;  
+}
+  .wrapper {
+    padding-left: 8% !important;
+    width: 190% !important;
+  }
+
+
+  /*diff*/
+  #logo{
+    padding-left: 20px !important; 
+  }
+
+  img#logo{
+  max-width: 90px;
+  height: auto;
+}  
+
+  #logo_fin{
+    padding-left: 20px !important; 
+  }
+
+  img#logo_fin{
+  max-width: 50px;
+  height: auto;
+}  
+
+  body{
+  overflow: scroll;
+}
+
+.err.success.form-signin-heading {
+  font-size: 30px;
+}
+
+.category{
+  padding-bottom: 10px;
+}
+
+#connectbtn{
+  margin-left: 53px !important;
+}
+/*
+.farj.btn{
+   background: transparent !important;
+  border: 3px solid white !important;
+  color: white !important;
+  font-size: 18px !important;
+  margin-top: 25px;
+  padding-top: 15px !important;
+  border-radius: 0px !important;
+  margin-left: 13% !important;
+}*/
+
+.farj.btn{
+  margin-left: 13% !important;  
+}
+
+.navigation_form{
+  width: auto;
+}
+
+.far-bg-img_form img{
+    width: 99%;
+     min-height: 820px;
+     z-index: -1;  
+}
+
+#title_form{
+  font-size: 30px;
+}
+
+.wrapper{
+  width: 110% !important;
+}
+
+.form-signin-heading{
+  width: 300px;
+}
+
+/*.fin.btn{
+    background: transparent !important;
+    border: 3px solid #56042c !important;
+    color: #56042c !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-left: 0px !important;
+    margin-top: 25px;
+    padding-top: 15px !important;
+    border-radius: 3px !important;
+}
+
+.fin.btn:hover{
+  color: white !important;
+  background: rgba(86,4,44,0.8)!important;
+}*/
+
+span#subhead {
+    font-size: 23px!important;
+    color: #FFFFFF !important;
+}
+
+span#surprise {
+    font-size: 23px!important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+.farj-heading{
+  font-size: 20px;
+  text-align: center;
+}
+
+h2.success.form-signin-heading {
+  font-size: 35px;
+    background-color: #007F00;
+  opacity: 0.8;
+  padding: 30px 40px; 
+  width: 320px;
+  color: #FFFFFF !important;
+}
+
+
+}
+
+
+@media only screen and (min-width: 412px) and (max-width: 414px){
+  #logo{
+    padding-left: 20px !important; 
+    padding-right: 5%;
+  }
+
+/*  .farj.btn{
+  margin-left: 30% !important;
+  padding: 8px 18px !important;
+}*/
+
+  body{
+  overflow: scroll;
+}
+}
+
+
+@media screen and (min-width: 485px) and (max-width: 610px){
+  .far.col-sm-6{
+    margin-left: 25% !important;
+  }
+
+}
+
+
+@media screen and (min-width: 610px) and (max-width: 767px){
+  .far.col-sm-6{
+    margin-left: 30% !important;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+body{
+  overflow: scroll;
+}
+
+.wrapper{
+  margin-top: 20px;
+}
+
+
+.navigation{
+  font-size: 30px;
+  padding-bottom: 10% !important;
+}
+
+#title{
+  position: relative;
+  top: 14px;
+  right: 10px;
+}
+
+#header-text{
+text-align:center;
+margin-right: 15px;
+}
+
+#logo{
+height: 105px !important;
+float: left;
+padding-left: 40px;
+}
+
+.far.col-sm-6{
+  margin-left: 6%;
+}
+
+.form-signin{
+  padding-left: 42px;
+  padding-right: 42px;
+  width: 100%;
+}
+
+.form-signin-heading{
+  text-align: center;
+}
+.wrapper {
+    width: 335px;
+}
+
+.form-group{
+  margin-bottom: 15px !important;
+}
+
+
+.far.radio{
+  margin-left: 0;
+}
+
+.form-signin .form-control{
+  margin-left: 0px;
+}
+
+.category{
+  float: none;
+  text-align: left;
+}
+
+.far-bg-img {
+    position: relative;
+    width: 105%;
+}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px){
+.navigation {
+    padding-left: 30px;
+}
+
+#title{
+  font-size: 45px;
+}
+
+.far-bg-img{
+  width: 102%;
+}
+
+.farj-heading{
+  font-size: 25px;
+  text-align: center;
+}
+
+/* .farj.btn{
+  margin-left: 33% !important;
+}*/
+
+
+.category{
+  float: left;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.form-signin { 
+  padding: 20px 20px;
+}
+
+.wrapper{
+  width: 495px;
+}
+
+.far.col-sm-6{
+margin-left: 20%; 
+}
+}

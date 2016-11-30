@@ -1,0 +1,22 @@
+{
+  "name": "webgallery",
+  "homepage": "https://github.com/CarnegieMellonQatar/15-437",
+  "authors": [
+    "ThierrySans <thierry.sans@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

@@ -1,0 +1,1 @@
+web: gunicorn testad.wsgi --log-file -
